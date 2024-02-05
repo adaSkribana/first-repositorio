@@ -10,12 +10,14 @@ while menu_option != "3":
           f"3. Salir")
 
     menu_option = input()
-
     if(menu_option == "1"):
         user_option = input("Escoge entre piedra, papel o tijeras:\npara terminar escribe salir.\n").lower().strip()
         computer_choice = random.choice(["piedra", "papel", "tijeras"])
 
-        if (user_option != "tijeras" and user_option != "papel" and user_option != "piedra" and user_option != "salir"):
+        if (user_option != "tijeras" and 
+            user_option != "papel" and 
+            user_option != "piedra" and 
+            user_option != "salir"):
             print("escribe una opción válida")
 
         print(f"elegiste {user_option}")
@@ -30,7 +32,11 @@ while menu_option != "3":
         elif(user_option == computer_choice):
             print("Empate")
     elif(menu_option == "2"):
-        print(f"Cantidad ganadas usuario: { wins }")
-        print(f"Cantidad ganadas computadora: { loose }")
+         print(f"Cantidad ganadas usuario: { wins }")
+         print(f"Cantidad ganadas computadora: { loose }")
     elif(menu_option == "3"):
-        print(f"Gracias por jugar")
+         print(f"Gracias por jugar")
+
+
+
+
