@@ -36,5 +36,5 @@ if cant_matrix > 0 and cant_rows > 0 and cant_column > 0:
     print(f"Matriz suma actual \n {sum_matrix} \n")
 
 else:
-    print("Debe ingresar  valores enteros positivos, re-intente por favor.")
+    print("Debe ingresar valores enteros positivos, re-intente por favor.")
     
